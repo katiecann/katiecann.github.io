@@ -1,27 +1,674 @@
-<html>
-	<head>
-		<title>Katie's Github Portfolio</title>	
-		<link rel="stylesheet" href="style.css">
-		<link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Raleway' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		<h1>Katie's Github Portfolio</h1>
-		<p>This is Katie's placeholder page.</p>
-		
-		<div class="row">
-			<div class="col-md-12" id="social">
-				<a href="https://www.linkedin.com/pub/katie-cann" target="_blank">
-					<img src="images/icons/linkedin.png" alt="Find Katie on LinkedIn" style="width: 40px;">
-				</a>
-				<a href="https://twitter.com/katietcann" target="_blank">
-					<img src="images/icons/twitter.png" alt="Find Katie on Twitter" style="width: 40px;">
-				</a>
-				<a href="https://github.com/katiecann" target="_blank">
-					<img src="images/icons/github.png" alt="Find Katie on Github" style="width: 40px;">
-				</a>
-				<a href="https://instagram.com/katietcann" target="_blank">
-					<img src="images/icons/instagram.png" alt="Find Katie on Instagram" style="width: 40px;">
-				</a>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Aurora</title>
+
+	<!-- CSS -->
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+	<!-- Elegant icons CSS -->
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+
+	<!--[if lte IE 7]>
+		<script src="assets/js/icons-lte-ie7.js"></script>
+	<![endif]-->
+
+	<!-- Magnific-popup lightbox -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+
+	<!-- Owl Carousel -->
+	<link href="assets/css/owl.theme.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+
+	<!-- Animate css -->
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+	<!-- Preloader -->
+
+	<div id="preloader">
+		<div id="status">
+			<div class="status-mes"></div>
+		</div>
+	</div>
+
+	<!-- Home start -->
+
+	<section id="home" class="module-image js-height-full">
+
+		<div class="intro">
+			<div class="hello">Hello, my name is Katie Cann and</div>
+			<h1>I am a Front-End Developer</h1>
+			<div class="who-creates">creating modern and responsive design for Web and Mobile</div>
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Katie Cann</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#services">Skills</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<!--<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								UI Elements <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="icons.html">Icons</a></li>
+								<li><a href="components.html">Components</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="module paddingb-none">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						<h2 class="module-title">My Portfolio</h2>
+						<div class="module-line"></div>
+						<div class="module-subtitle">
+							An example of my work.
+						</div>
+						<div class="module-line"></div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<!-- Portfolio Filter start-->
+
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul id="filter">
+						<li class="active" data-group="all">All</li>
+						<li data-group="dev">Web Dev</li>
+						<li data-group="template">Sites Using Templates</li>
+						<li data-group="photo">Photography</li>
+					</ul>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<!-- Portfolio Filter end -->
+
+		</div><!-- .contaier -->
+
+		<ul class="portfolio-items-container">
+
+			<li class="portfolio-item" data-groups="all template">
+				<figure>
+					<img src="assets/images/hotbuns.png" alt="Hot Buns Bakery Website Screen Shot">
+					<figcaption>
+						<a href="http://www.thehotbunsbakery.com" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Hot Buns Bakery Website</h3>
+							<div class="portfolio-item-desc">Built with Squarespace Template</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all dev">
+				<figure>
+					<img src="assets/images/apisuperstore.png" alt="API Superstore Website Screen Shot">
+					<figcaption>
+						<a href="http://katietcann.com/wats1010-product-page" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Fake Store Website</h3>
+							<div class="portfolio-item-desc">Built using Bootstrap</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all dev">
+				<figure>
+					<img src="assets/images/rainier.png" alt="Mt Rainier Info Website Screen Shot">
+					<figcaption>
+						<a href="http://katietcann.com/wats1020-add-a-map" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Mt Rainier Info Website</h3>
+							<div class="portfolio-item-desc">Used jQuery, Bootstrap and Leaflet to make an interactive info page for Mt Rainier</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all dev">
+				<figure>
+					<img src="assets/images/fortunecookie.png" alt="Fortune Cookie Generator Screen Shot">
+					<figcaption>
+						<a href="http://katietcann.com/wats1020-dom-basics" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Fortune Cookie Generator</h3>
+							<div class="portfolio-item-desc">Simple game using Javascript</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all dev">
+				<figure>
+					<img src="assets/images/flickrsearch.png" alt="Flickr Search App Screen Shot">
+					<figcaption>
+						<a href="http://katietcann.com/wats1020-flickr-search/" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Flickr Search Web App</h3>
+							<div class="portfolio-item-desc">Utilized Javascript, Flickr API, and Bootstrap to create Flickr search grid</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all dev">
+				<figure>
+					<img src="assets/images/petroulette.png" alt="Pet Roulette Web App Screen Shot">
+					<figcaption>
+						<a href="http://katietcann.com/angular-app/#" ></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Pet Roulette Web App</h3>
+							<div class="portfolio-item-desc">Utilized PetFinder API and Angular.js to make a single page web app</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+<!--
+			<li class="portfolio-item" data-groups="all video">
+				<figure>
+					<img src="assets/images/portfolio-item.jpg" alt="">
+					<figcaption>
+						<a href="portfolio/video.html" class="simple-ajax-popup"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Some work one</h3>
+							<div class="portfolio-item-desc">Video</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all image">
+				<figure>
+					<img src="assets/images/portfolio-item.jpg" alt="">
+					<figcaption>
+						<a href="portfolio/image.html" class="simple-ajax-popup"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Some work one</h3>
+							<div class="portfolio-item-desc">Image</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all slideshow">
+				<figure>
+					<img src="assets/images/portfolio-item.jpg" alt="">
+					<figcaption>
+						<a href="portfolio/slideshow.html" class="simple-ajax-popup"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Some work one</h3>
+							<div class="portfolio-item-desc">Slideshow</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all video">
+				<figure>
+					<img src="assets/images/portfolio-item.jpg" alt="">
+					<figcaption>
+						<a href="portfolio/video.html" class="simple-ajax-popup"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Some work one</h3>
+							<div class="portfolio-item-desc">Video</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+
+			<li class="portfolio-item" data-groups="all image">
+				<figure>
+					<img src="assets/images/portfolio-item.jpg" alt="">
+					<figcaption>
+						<a href="portfolio/image.html" class="simple-ajax-popup"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">Some work one</h3>
+							<div class="portfolio-item-desc">Image</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>  -->
+
+		</ul><!-- .projects-container -->
+
+	</section>
+
+	<!-- Portfolio end -->
+
+	<!-- Callout start -->
+
+	<section class="callout">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-8 col-lg-6 col-lg-offset-2">
+					<h2>INTERESTED IN WHAT I CAN DO?</h2>
+					<div class="callout-decription">
+						I'm currently looking for junior or intern positions.
+					</div>
+				</div>
+
+				<div class="col-md-4 col-lg-2 callout-btn">
+					<a href="#contact" class="btn btn-lg btn-block btn-custom-1">Contact me</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Callout end -->
+
+	<!-- Services/Skills start -->
+
+	<section id="services" class="module module-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						<h2 class="module-title">Skills</h2>
+						<div class="module-line"></div>
+						<div class="module-subtitle">
+							I take pride in what I can do. 
+							<br>
+							My skills are varied and ultimately reflect my drive to never stop learning.
+						</div>
+						<div class="module-line"></div>
+					</div>
+
+				</div>
+
 			</div>
-	</body>
+
+			<div class="row">
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow bounceIn">
+						<div class="iconbox-icon">
+							<span class="icon-globe"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web Dev</h3>
+							<div class="iconbox-desc">
+								Something will ultimately go here.  I need to say stuff here.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow bounceIn">
+						<div class="iconbox-icon">
+							<span class="icon-bubbles"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Social Media</h3>
+							<div class="iconbox-desc">
+								Something will ultimately go here.  I need to say stuff here.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow bounceIn">
+						<div class="iconbox-icon">
+							<span class="icon-screen-desktop"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Design</h3>
+							<div class="iconbox-desc">
+								Something will ultimately go here.  I need to say stuff here.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow bounceIn">
+						<div class="iconbox-icon">
+							<span class="icon-camera"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Photo</h3>
+							<div class="iconbox-desc">
+								Something will ultimately go here.  I need to say stuff here.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Services/Skills end -->
+
+	<!-- About start -->
+
+	<section id="about">
+
+		<div class="row position-relative margin-0">
+
+			<div class="col-xs-12 col-md-6 side-image"></div>
+
+			<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+
+				<div class="row">
+
+					<div class="col-sm-12">
+
+						<div class="module-header module-header-left wow fadeInUp">
+							<h2 class="module-title">About me</h2>
+							<div class="module-subtitle">
+								Katie Cann, 31 year old Pacific Northwesterner from Olympia, Washington. Earned my BA from The Evergreen State College in 2007 and am currently in the final quarter of my Web Development Certificate Program at Seattle University.
+							</div>
+							<div class="module-line"></div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp">
+							<div class="iconboxleft-icon">
+								<span class="icon-camera"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Photographer</h3>
+								<div class="iconboxleft-desc">
+									I found cameras as a teen visiting Italy with my parents. Then began using the darkroom in high school and stayed there all through college. I worked in a professional darkroom for 2 years and ran my own portrait business for 5 years. I will always have a passion for photos.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
+							<div class="iconboxleft-icon">
+								<span class="icon-earphones"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Music</h3>
+								<div class="iconboxleft-desc">
+									Something will ultimately go here.  I need to say stuff here.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row">
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp">
+							<div class="iconboxleft-icon">
+								<span class="icon-eyeglasses"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Glasses</h3>
+								<div class="iconboxleft-desc">
+									Something will ultimately go here.  I need to say stuff here.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-sm-6">
+
+						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
+							<div class="iconboxleft-icon">
+								<span class="icon-puzzle"></span>
+							</div>
+							<div class="iconboxleft-text">
+								<h3 class="iconboxleft-title">Board Games</h3>
+								<div class="iconboxleft-desc">
+									I enjoy playing board games monthly with friends. Some fav's include Small World, Dominion, Set, Sushi Go, and Ticket to Ride. I also hit up bingo on occasion.
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- col-xs-12 -->
+
+		</div><!-- .row -->
+	</section>
+
+	<!-- About end -->
+
+	<!-- Twitter start -->
+
+	<section id="twitter" class="module module-gray">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header wow fadeInUp">
+						<div class="module-icon"><span class="icon-social-twitter"></span></div>
+					</div>
+
+					<div class="testimonials owl-carousel wow fadeInUp"></div>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Twitter end -->
+
+	<!-- Google Map start-->
+
+	<section id="map-section">
+
+		<div id="map"></div>
+
+	</section>
+
+	<!-- Google Map end -->
+
+	<!-- Contact start -->
+
+	<section id="contact" class="module">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="module-header">
+						<h2 class="module-title">Contact</h2>
+						<div class="module-line"></div>
+						<div class="module-subtitle">
+							<span class="icon-bubble"></span>
+							  Say Hello!
+						</div>
+						<div class="module-line"></div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<form id="contact-form" role="form">
+						<div class="ajax-hidden">
+							<div class="form-group wow fadeInUp">
+								<label class="sr-only" for="c_name">Name</label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
+								<label class="sr-only" for="c_email">Email address</label>
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send it
+							</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/katietcann" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/katietcann" class="wow fadeInUp" data-wow-delay=".1s" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/+KatieCannRocksYerSocks" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.linkedin.com/pub/katie-cann/69/849/23a" class="wow fadeInUp" data-wow-delay=".3s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/katiecann" class="wow fadeInUp" target="_blank"><i class="fa fa-github"></i></a></li>
+						<!--<li><a href="#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li> -->
+						<li><a href="mailto:katietaylorcann@gmail.com" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+
+					<p class="copyright">
+						© 2014 Aurora, All Rights Reserved.
+					</p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll-up -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.shuffle.min.js"></script>
+	<script src="assets/js/twitterFetcher_min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.fitvids.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<!-- Google Maps -->
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="assets/js/gmaps.js"></script>
+	<!-- Custom scripts -->
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/custom-shuffle-init.js"></script>
+
+</body>
 </html>
