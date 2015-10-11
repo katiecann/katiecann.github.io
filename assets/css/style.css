@@ -834,15 +834,15 @@ button.mfp-close {
 /* ---------------------------------------------- */
 
 #map-section {
-	position: relative;
-	height: 450px;
-	width: 100%;
+	position: absolute;
+	height: 300px;
+	width: 50%;
 }
 
-#map {
-	height: 450px;
+/*#map {
+	height: 300px;
 	width: 100%;
-}
+}*/
 
 .ajax-response {
 	text-align: center;
